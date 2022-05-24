@@ -1,0 +1,2 @@
+background-attactch: fixed
+background-repeat: no-repeat
