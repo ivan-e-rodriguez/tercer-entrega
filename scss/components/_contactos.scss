@@ -1,0 +1,68 @@
+/* CONTACTOS */
+
+main{
+
+    .background-contactos{
+                background-image: url(../imagenes/general/fondo-agua.jpg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                height: 800px;
+
+
+
+                .main-contactos{
+                    display: grid;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    grid-template-columns: 1fr 1fr;
+                    background-color: rgba(173, 213, 247, 0.8);
+                    height: 100%;
+                    
+
+                    h1{
+                        font-size: 80px;
+                        font-family: 'Barlow Condensed', sans-serif; 
+                        font-style: italic; 
+                        color: white;
+                        text-shadow: 2px 2px 2px black;
+                        grid-column-start: span 2;
+                        text-align: center;
+                    }
+
+                    .formulario-mensaje{
+                                padding-left: 20%;
+
+                                label{
+                                    display: block;
+                                    font-size: 20px;
+                                    font-family: 'Readex Pro', sans-serif;
+                                    text-shadow: 1px 1px 1px white;
+                                }
+
+                                input{
+                                    display: block;
+                                    width: 60%;
+                                }
+
+                                textarea{
+                                    resize: none;
+                                    width: 60%;
+                                }
+                    }
+
+                    .como-ubicarnos{
+                        justify-self: center;
+
+                        h2{
+                            font-size: 40px;
+                            font-family: 'Readex Pro', sans-serif;
+                        }
+                    }
+                    
+
+                }
+
+
+
+    }
+}

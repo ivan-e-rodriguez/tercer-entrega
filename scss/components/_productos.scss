@@ -1,0 +1,86 @@
+/* PRODUCTOS */
+
+main{
+    
+    .background-productos{
+        background-image: url(../imagenes/general/fondo-agua.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+        .main-productos{
+            display: grid;
+            background-color: rgba(173, 213, 247, 0.8);
+            margin-left: 10%;
+            margin-right: 10%;
+            grid-template-rows: 0.5 repeat(3, 1fr);
+            gap: 20px;
+            height: 100%;
+
+            .titulo-productos{
+
+                h1{
+                    font-size: 80px;
+                    font-family: 'Barlow Condensed', sans-serif;
+                    font-style: italic;
+                    text-align: center;
+                    color: white;
+                    text-shadow: 2px 2px 2px black;
+                }
+
+                p{
+                    text-align: center;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    font-size: 30px;
+                    font-family: 'Readex Pro', sans-serif;
+                    text-shadow: 1px 1px 1px white;
+                }
+
+            }
+
+            .contenedor-productos{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                .contenedor-imagen{
+                    margin: 15% 15% 15% 15%;
+                    justify-items: center;
+
+                    .producto-imagen{
+                        width: 100%;
+                        justify-content: center;
+                        object-fit: cover;
+                        -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 16px 16px rgba(0,0,0,0), 5px 5px 16px 16px rgba(0,0,0,0.26); 
+                        box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 16px 16px rgba(0,0,0,0), 5px 5px 16px 16px rgba(0,0,0,0.26);
+                        
+                    }
+                }
+
+                .texto-producto{
+                    align-self: center;
+                    padding: 50px;
+
+                    h2{
+                        font-family: 'Permanent Marker', cursive; 
+                        font-style: italic;
+                        font-size: 60px;
+                        color: yellow;
+                        text-shadow: 2px 2px 2px black;
+
+                    }
+
+                    p{
+                        font-size: 35px;
+                        font-family: 'Readex Pro', sans-serif;
+                        color: black;
+                        text-shadow: 0.5px 0.5px 0.5px white;  
+                    }
+                }
+
+                .invertir{
+                    order: -1;
+                }
+            }
+        }
+    }
+}

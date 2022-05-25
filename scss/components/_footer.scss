@@ -1,0 +1,44 @@
+/* FOOTER */
+
+footer{
+    display: grid;
+    background-color: #0060CA; 
+    font-family: 'Readex Pro', sans-serif;
+    color: rgb(208, 229, 233);
+    grid-template-columns: 1fr 1fr;   
+    
+    .footer-contactos{
+        display: inline-block;
+
+        h2{
+            font-size: 20px;
+        }
+
+        h3{
+            margin-left: 30px; 
+            font-size: 15px;  
+        }
+
+        img{
+            margin-right: 10px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .footer-redes{
+        display: inline-block;  
+        align-self: start;
+        justify-self: center;
+        
+        h3{
+            margin-left: 20px;
+        }
+
+        img{
+            margin-right: 10px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+}

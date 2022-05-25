@@ -1,0 +1,39 @@
+/* PREGUNTAS FRECUENTES */
+
+main{
+
+    .background-preguntas{
+        background-image: url(../imagenes/general/fondo-agua.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: block;
+        height: 800px;
+
+        .main-preguntas{
+            height: 100%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: rgba(173, 213, 247, 0.8);
+
+            h1{
+                text-align: center;
+                font-family: 'Barlow Condensed', sans-serif;
+                font-size: 80px;
+                color: white;
+                text-shadow: 2px 2px 2px black;
+            }
+
+            ul{
+                li{
+                    h2{
+                        font-size: 30px;
+                        font-family: 'Readex Pro', sans-serif;
+                        text-shadow: 1px 1px 1px white;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
